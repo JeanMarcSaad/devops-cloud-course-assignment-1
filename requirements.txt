@@ -1,0 +1,5 @@
+connexion == 2.9.0
+python_dateutil == 2.8.2
+setuptools >= 21.0.0
+swagger_ui_bundle == 0.0.9
+tinydb==4.5.2
