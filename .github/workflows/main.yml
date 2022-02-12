@@ -3,7 +3,7 @@ on: [push]
 env:
   IMAGE_NAME: student_service
   REPO_NAME: jeanmarcsduva
-  IMAGE_VERSION: 1.0.0
+  IMAGE_VERSION: latest
 
 jobs:
   build:
