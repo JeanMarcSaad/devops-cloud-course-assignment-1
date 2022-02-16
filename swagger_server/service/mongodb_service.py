@@ -8,7 +8,7 @@ from bson.objectid import ObjectId
 # from swagger_server.models import Student
 # import json
 
-client = MongoClient("mongodb://localhost:27017")
+client = MongoClient(os.environ['MONGO_URI'])
 db = client.local
 collection = db.students
 
