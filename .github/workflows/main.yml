@@ -13,10 +13,6 @@ jobs:
     - name: Build docker
       run: |
         docker build . -t $REPO_NAME/$IMAGE_NAME:$IMAGE_VERSION
-#    - name: run docker
-#      run: |
-#        docker run -d -e 8080:8080 -host=172.17.0.2 $REPO_NAME/$IMAGE_NAME:$IMAGE_VERSION && \
-#          docker ps && sleep 5
 
     - name: run docker compose
       run: |

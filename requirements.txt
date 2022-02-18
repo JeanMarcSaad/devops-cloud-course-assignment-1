@@ -1,4 +1,4 @@
-connexion == 2.9.0
+connexion == 2.11.1
 python_dateutil == 2.8.2
 setuptools >= 21.0.0
 swagger_ui_bundle == 0.0.9
